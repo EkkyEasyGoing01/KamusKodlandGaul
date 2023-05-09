@@ -1,0 +1,21 @@
+meme_dict = {
+            "CRINGE": "Sesuatu yang sangat alay atau memalukan.",
+            "LOL": "Tanggapan umum terhadap sesuatu yang lucu.",
+            "OTW": "Sedang dalam perjalanan ke suatu destinasi.",
+            "FYI": "Biasa diucapkan ketika akan memberi sebuah informasi baru.",
+            "GWS": "Artinya semoga lekas sembuh.",
+            "OMG": "Astaga atau Ya Tuhan. Sering diucapkan ketika lagi shock atau dalam situasi yang lain. ",
+            "Se-fruit": "Artinya sebuah.",
+            "Typo": "Salah ketik.",
+            "VC": "Video Call atau Voice Call."
+            }
+            
+word = input("Ketik kata yang tidak Kamu mengerti (gunakan huruf kapital semua!): ")
+
+if word in meme_dict.keys():
+    # Apa yang harus kita lakukan jika kata itu ditemukan?
+    print(meme_dict[word])
+    
+else:
+    # Apa yang harus kita lakukan jika kata itu tidak ditemukan?
+    print("Maaf kami tidak menemukan yang kamu cari.")
